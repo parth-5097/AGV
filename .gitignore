@@ -1,3 +1,1 @@
-lift_motors.ino
-line_following.ino
-rfid.ino
+*.ino
