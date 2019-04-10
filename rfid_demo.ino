@@ -10,15 +10,15 @@
 #include <SPI.h>
 #include <MFRC522.h>
  
-#define SS_PIN 10
-#define RST_PIN 9
-MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance.
+#define SS_PIN 9 //You know the real one
+#define RST_PIN 10 //You know the real one
+MFRC522 mfrc522(SS_PIN, RST_PIN);  
  
 void setup() 
 {
-  Serial.begin(9600);   // Initiate a serial communication
-  SPI.begin();      // Initiate  SPI bus
-  mfrc522.PCD_Init();   // Initiate MFRC522
+  Serial.begin(9600);   
+  SPI.begin();      
+  mfrc522.PCD_Init();  
   Serial.println("Approximate your card to the reader...");
   Serial.println();
 
@@ -35,7 +35,7 @@ void loop()
   {
     return;
   }*/
-  Serial.print(&(mfrc522.uid));
+  //Serial.print(&(mfrc522.uid));//real
   //Serial.print(mfrc522.uid.uidByte[0] < 0x10 ? " 0" : " ");
   //Serial.print(mfrc522.uid.uidByte[0], HEX);
   //Show UID on serial monitor

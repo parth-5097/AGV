@@ -52,14 +52,14 @@ if(analogRead(A0)>100)
     motor4.run(RELEASE);
   }
 }
-if(l<t_value && r<t_value) //go forward
+if(l<t_value && r<t_value) //go F_Re
 {
   motor1.run(FORWARD);
   motor2.run(FORWARD);
   motor3.run(FORWARD);
   motor4.run(FORWARD);
 }
-else if(l>t_value && r>t_value) //go forward
+else if(l>t_value && r>t_value) //go F_Re
 {
   motor1.run(FORWARD);
   motor2.run(FORWARD);
@@ -67,14 +67,14 @@ else if(l>t_value && r>t_value) //go forward
   motor4.run(FORWARD);
 }
 
-else if(l>t_value && r<t_value) //go left
+else if(l>t_value && r<t_value) //go L_R
 {
   motor2.run(BACKWARD);
   motor3.run(BACKWARD);
   motor1.run(FORWARD);
   motor4.run(FORWARD);
 }
-else if(l<t_value && r>t_value) //go right
+else if(l<t_value && r>t_value) //go R_L
 {
   motor1.run(BACKWARD);
   motor4.run(BACKWARD);
