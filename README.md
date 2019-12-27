@@ -176,22 +176,24 @@ The trend is clear: more and more companies, large and small are turning to solu
 
 Automated Guided Vehicle is SMART DECISION-MAKING VEHICLE. It is fully capable to lift and carry loads of significant weight and can move in an effective path without any deviation from its path.
 
-# AWS Greengrass:
+# References 
+
+## AWS Greengrass:
 
 https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html
 
-# AWS API Gateway:
+## AWS API Gateway:
 
 https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
 
-# Webpage:
+## Webpage:
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
-# ReactJS:
+## ReactJS:
 
 https://reactjs.org/
 
-# Serial Communication:
+## Serial Communication:
 
 https://www.sunfounder.com/blog/rpi-ard/
